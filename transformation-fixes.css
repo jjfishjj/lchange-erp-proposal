@@ -1,0 +1,23 @@
+/* Keep section labels readable on both light and dark surfaces. */
+.eyebrow,
+.label {
+  color: var(--green);
+  font-weight: 600;
+}
+
+.hero .eyebrow,
+.dark .label,
+.closing .eyebrow {
+  color: var(--lime);
+}
+
+.section-head .label {
+  display: inline-block;
+  padding: 4px 7px;
+  border: 1px solid currentColor;
+  background: rgba(23, 96, 69, 0.06);
+}
+
+.dark .section-head .label {
+  background: rgba(200, 240, 93, 0.08);
+}
